@@ -5,11 +5,11 @@
       "left": [
         "dashboard",
         "workspaces",
-        "windowtitle"
+        "windowtitle",
+        "netstat"
       ],
       "middle": [
-        "clock",
-        "media"
+        "clock"
       ],
       "right": [
         "cpu",
@@ -31,7 +31,6 @@
         "windowtitle"
       ],
       "middle": [
-        "media"
       ],
       "right": [
         "volume",
@@ -46,7 +45,6 @@
         "windowtitle"
       ],
       "middle": [
-        "media"
       ],
       "right": [
         "volume",
@@ -100,6 +98,8 @@
   },
   "menus.clock.time.military": true,
   "menus.clock.weather.enabled": false,
+  "bar.clock.format": "%a %b %d  %H:%M:%S",
   "bar.customModules.netstat.networkInterface": "wlan0",
-  "bar.clock.format": "%a %b %d  %H:%M:%S"
+  "bar.network.showWifiInfo": true,
+  "bar.bluetooth.label": false
 }
